@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X-Clone</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body class="bg-black text-white">
+    <div class="flex container mx-auto">
+      <div class="first w-1/4 md:w-1/3">
+        <div class="logo sticky top-0 lg:ml-32">
+          <img class="w-20" src="twitter logo.webp" alt="" />
+        </div>
+        <div class="sidebar sticky top-14 lg:ml-32">
+          <ul class="flex flex-col space-y-3 font-bold">
+            <li
+              class="gap-5 flex justify-start items-center w-fit px-4 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"
+            >
+              <span class="material-symbols-outlined"> home </span
+              ><span class="md:block hidden">Home</span>
+            </li>
+            <li
+              class="gap-5 flex justify-start items-center w-fit px-4 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"
+            >
+              <span class="material-symbols-outlined"> search </span
+              ><span class="md:block hidden">Search</span>
+            </li>
+            <li
+              class="gap-5 flex justify-start items-center w-fit px-4 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"
+            >
+              <span class="material-symbols-outlined"> notifications </span>
+              <span class="md:block hidden">Notifications</span>
+            </li>
+            <li
+              class="gap-5 flex justify-start items-center w-fit px-4 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"
+            >
+              <span class="material-symbols-outlined"> mail </span
+              ><span class="md:block hidden">Messages</span>
+            </li>
+            <li
+              class="gap-5 flex justify-start items-center w-fit px-4 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"
+            >
+              <span class="material-symbols-outlined"> show_chart </span
+              ><span class="md:block hidden">Grok</span>
+            </li>
+            <li
+              class="gap-5 flex justify-start items-center w-fit px-4 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"
+            >
+              <span class="material-symbols-outlined"> list_alt </span
+              ><span class="md:block hidden">Lists</span>
+            </li>
+            <li
+              class="gap-5 flex justify-start items-center w-fit px-4 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"
+            >
+              <span class="material-symbols-outlined"> bookmark </span
+              ><span class="md:block hidden">Bookmarks</span>
+            </li>
+            <li
+              class="gap-5 flex justify-start items-center w-fit px-4 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"
+            >
+              <span class="material-symbols-outlined"> group </span
+              ><span class="md:block hidden">Communities</span>
+            </li>
+            <li
+              class="gap-5 flex justify-start items-center w-fit px-4 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"
+            >
+              <span class="material-symbols-outlined"> new_releases </span>
+              <span class="md:block hidden">Premium</span>
+            </li>
+            <li
+              class="gap-5 flex justify-start items-center w-fit px-4 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"
+            >
+              <span class="material-symbols-outlined">person</span
+              ><span class="md:block hidden">Profile</span>
+            </li>
+            <li
+              class="gap-5 flex justify-start items-center w-fit px-4 py-2 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer"
+            >
+              <span class="material-symbols-outlined"> more_horiz </span
+              ><span class="md:block hidden">More</span>
+            </li>
+          </ul>
+          <div
+            class="btn bg-blue-600 hidden md:block rounded-full px-10 py-2 my-2 font-bold w-fit"
+          >
+            Post
+          </div>
+          <div class="boxii bg-blue-500 rounded-full py-2 px-2 w-fit md:hidden">
+            <span class="material-symbols-outlined"> edit </span>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="second w-3/4 md:w-1/3 border border-x-gray-600 border-y-black"
+      >
+        <div class="top flex py-2 border-y-gray-500 border border-x-0">
+          <div class="left w-1/2 flex justify-center hover:bg-gray-900">
+            For you
+          </div>
+          <div class="right w-1/2 flex justify-center hover:bg-gray-900">
+            Following
+          </div>
+          <div class="settings mx-2">
+            <span class="material-symbols-outlined"> settings </span>
+          </div>
+        </div>
+
+        <div class="whathappen">
+          <div class="box1 flex">
+            <div class="img w-10 mx-2 my-2">
+              <img src="my pic.jpg" alt="" class="rounded-full" />
+            </div>
+            <input
+              type="text"
+              class="bg-black text-white outline-none"
+              placeholder="What is happening?"
+            />
+          </div>
+
+          <div class="icons flex mx-2 gap-2 my-3">
+            <span
+              class="material-symbols-outlined opacity-30 text-xs text-blue-500"
+            >
+              image
+            </span>
+            <span
+              class="material-symbols-outlined opacity-30 text-xs text-blue-500"
+            >
+              list_alt
+            </span>
+            <span
+              class="material-symbols-outlined opacity-30 text-xs text-blue-500"
+            >
+              sentiment_satisfied
+            </span>
+            <span
+              class="material-symbols-outlined opacity-30 text-xs text-blue-500"
+            >
+              calendar_clock
+            </span>
+            <span
+              class="material-symbols-outlined opacity-30 text-xs text-blue-500"
+            >
+              location_on
+            </span>
+            <div
+              class="btn bg-blue-500 opacity-30 rounded-full hidden lg:block w-fit px-4 py-1 mx-48 text-white"
+            >
+              Post
+            </div>
+          </div>
+          <hr />
+
+          <div class="show text-blue-500 opacity-30 flex justify-center my-2">
+            Show 60 posts
+          </div>
+          <hr />
+        </div>
+
+        <div class="posts flex">
+          <div class="img w-10 mx-2 my-2">
+            <img
+              class="rounded-full"
+              src="https://amateurphotographer.com/wp-content/uploads/sites/7/2022/05/5.jpg"
+              alt=""
+            />
+          </div>
+          <div class="font-bold text-sm my-2 mx-2">Massimo</div>
+          <span class="material-symbols-outlined text-sm my-2 text-blue-500">
+            new_releases</span
+          >
+          <div class="text-gray-500 text-sm my-2">
+            @Raninmaker1978&#8226;15h
+          </div>
+          <span
+            class="material-symbols-outlined text-gray-500 text-sm ml-16 my-2"
+          >
+            more_horiz
+          </span>
+        </div>
+        <p class="mx-4 text-sm my-2">
+          This photo is an example of how a photo can be manipulated to create a
+          good visionery.
+        </p>
+        <div class="photo w-84 mx-10 my-2">
+          <img
+            class="rounded-xl"
+            src="https://img.freepik.com/premium-photo/beautiful-aesthetic-landscape-swiss-mountains-river-around-grass-cloudy-rain-day_820616-11.jpg"
+            alt=""
+          />
+        </div>
+        <div class="icons flex justify-around">
+          <span
+            class="material-symbols-outlined text-gray-500 text-sm hover:bg-gray-700 px-1 py-1 hover:text-white hover:rounded-full hover:cursor-pointer"
+          >
+            chat_bubble
+          </span>
+          <span
+            class="material-symbols-outlined text-gray-500 text-sm hover:bg-gray-700 px-1 py-1 hover:text-white hover:rounded-full hover:cursor-pointer"
+          >
+            repeat
+          </span>
+          <span
+            class="material-symbols-outlined text-gray-500 text-sm hover:bg-gray-700 px-1 py-1 hover:text-white hover:rounded-full hover:cursor-pointer"
+          >
+            favorite
+          </span>
+          <span
+            class="material-symbols-outlined text-gray-500 text-sm hover:bg-gray-700 px-1 py-1 hover:text-white hover:rounded-full hover:cursor-pointer"
+          >
+            equalizer
+          </span>
+          <span
+            class="material-symbols-outlined text-gray-500 text-sm hover:bg-gray-700 px-1 py-1 hover:text-white hover:rounded-full hover:cursor-pointer"
+          >
+            bookmark
+          </span>
+        </div>
+
+        <hr class="my-2" />
+
+        <div class="posts flex">
+          <div class="img w-10 mx-2 my-2">
+            <img
+              class="rounded-full"
+              src="https://i.pinimg.com/originals/a7/47/57/a74757cba0af8528d083e64d41b3889f.png"
+              alt=""
+            />
+          </div>
+          <div class="font-bold text-sm my-2 mx-2">Codemer</div>
+          <span class="material-symbols-outlined text-sm my-2 text-blue-500">
+            new_releases</span
+          >
+          <div class="text-gray-500 text-sm my-2">
+            @aaagupichash1978&#8226;15h
+          </div>
+          <span
+            class="material-symbols-outlined text-gray-500 text-sm ml-16 my-2"
+          >
+            more_horiz
+          </span>
+        </div>
+        <p class="mx-4 text-sm my-2">
+          This photo is an example of how a photo can be manipulated to create a
+          good visionery.
+        </p>
+        <div class="photo w-84 mx-10 my-2">
+          <img
+            class="rounded-xl"
+            src="https://i.pinimg.com/originals/a7/47/57/a74757cba0af8528d083e64d41b3889f.png"
+            alt=""
+          />
+        </div>
+        <div class="icons flex justify-around">
+          <span
+            class="material-symbols-outlined text-gray-500 text-sm hover:bg-gray-700 px-1 py-1 hover:text-white hover:rounded-full hover:cursor-pointer"
+          >
+            chat_bubble
+          </span>
+          <span
+            class="material-symbols-outlined text-gray-500 text-sm hover:bg-gray-700 px-1 py-1 hover:text-white hover:rounded-full hover:cursor-pointer"
+          >
+            repeat
+          </span>
+          <span
+            class="material-symbols-outlined text-gray-500 text-sm hover:bg-gray-700 px-1 py-1 hover:text-white hover:rounded-full hover:cursor-pointer"
+          >
+            favorite
+          </span>
+          <span
+            class="material-symbols-outlined text-gray-500 text-sm hover:bg-gray-700 px-1 py-1 hover:text-white hover:rounded-full hover:cursor-pointer"
+          >
+            equalizer
+          </span>
+          <span
+            class="material-symbols-outlined text-gray-500 text-sm hover:bg-gray-700 px-1 py-1 hover:text-white hover:rounded-full hover:cursor-pointer"
+          >
+            bookmark
+          </span>
+        </div>
+
+        <hr class="my-2" />
+      </div>
+
+      <div class="third md:block hidden md:w-1/3">
+        <div class="sticky top-0">
+          <div class="search my-3 px-7">
+            <div class="bg-gray-900 rounded-full px-9 py-2 text-slate-300">
+              <span class="material-symbols-outlined"> search </span>Search
+            </div>
+          </div>
+          <div class="subscribe my-3 mx-7">
+            <div class="bg-gray-900 text-white rounded-xl px-4 py-2">
+              <div class="text-xl font-bold">Subscribe to Premium</div>
+              <div class="my-4 text-sm">
+                Subscribe to unlock new features and if eligible, receive a
+                share of ads revenue.
+              </div>
+              <button
+                class="bg-blue-500 text-white text-bold px-4 py-2 rounded-full"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="happening mx-7">
+            <div class="bg-gray-900 text-white rounded-xl px-4 py-2">
+              <div class="font-bold text-xl">What's happening</div>
+              <div class="my-2">
+                Womenwear Fahion Weeks<br /><span class="text-gray-400 text-sm"
+                  >Fashion_LIVE</span
+                >
+              </div>
+              <br />
+              <div class="content flex justify-between">
+                <div class="text-slate-400 text-sm">Trending in India</div>
+                <span class="material-symbols-outlined"> more_horiz </span>
+              </div>
+
+              <div class="font-bold">#MissileAttack</div>
+              <div class="text-slate-400 text-sm">41.2K posts</div>
+              <br />
+              <div class="content flex justify-between">
+                <div class="text-slate-400 text-sm">Entertainment-Trending</div>
+                <span class="material-symbols-outlined"> more_horiz </span>
+              </div>
+
+              <div class="font-bold">#AvneetKaur</div>
+              <div class="text-slate-400 text-sm">25.2K posts</div>
+            </div>
+          </div>
+
+          <div class="follow my-3 mx-7">
+            <div class="bg-gray-900 text-white rounded-xl px-4 py-2">
+              <div class="font-bold text-xl">Who to follow</div>
+              <br />
+              <div class="box flex justify-between">
+                <div>Visit Maldives</div>
+
+                <div
+                  class="bg-white text-gray-900 text-sm rounded-full px-2 w-fit"
+                >
+                  Follow
+                </div>
+              </div>
+              <span class="text-slate-400 text-sm">@visitmaldives</span>
+
+              <div class="box flex justify-between">
+                <div>Roshni Kumari</div>
+
+                <div
+                  class="bg-white text-gray-900 text-sm rounded-full px-2 w-fit"
+                >
+                  Follow
+                </div>
+              </div>
+              <span class="text-slate-400 text-sm">@roshnisingh21</span>
+
+              <div class="text-blue-500 text-sm my-3">Show more</div>
+            </div>
+            <br />
+            <p class="text-sm text-gray-400">
+              Terms of Service Privacy Policy Cookie Policy
+            </p>
+            <p class="text-sm text-gray-400">
+              Accessibility Ads info More..@2025X Corp.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
